@@ -7,15 +7,23 @@ body {
 	letter-spacing: 5px;
 }
 
+ .about{ 
+ 	background: #000000;
+ 	color: #ffffff;
+ }
+
+
 h1,h2 {
 	font-size: 20px;
 	margin: 0;
 	font-weight: normal;
 }
 
-a{
-	color: #000000;
+a{ color: #000000; }
 
+
+.about a {
+	color: #fff;
 }
 
 div{
@@ -28,4 +36,8 @@ img {
 
 ul {
 	margin:0;
+}
+
+p{
+	width:710px;
 }
