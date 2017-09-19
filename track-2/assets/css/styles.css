@@ -1,0 +1,31 @@
+body {
+	font-family: arial;
+	font-size: 20px;
+	line-height: 28px;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 5px;
+}
+
+h1,h2 {
+	font-size: 20px;
+	margin: 0;
+	font-weight: normal;
+}
+
+a{
+	color: #000000;
+
+}
+
+div{
+	margin-bottom:40px;
+}
+
+img { <img src="assets/img/Triangles.png"
+	margin-bottom: 40px;
+}
+
+ul {
+	margin:0;
+}
