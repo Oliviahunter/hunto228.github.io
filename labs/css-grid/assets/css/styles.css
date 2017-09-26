@@ -10,7 +10,7 @@ body{
 
 
 .wrapper { 
-	background: #eee;
+	background: #aaa;
 	width: 960px;
 	margin: 0 auto 0 auto;
 }
@@ -19,7 +19,7 @@ body{
 .c {
 	font-size: 150px;
 	display: inline-block;
-	background: #fff;
+	background: #f0c220;
 	margin: 0px;
 }
 
@@ -31,11 +31,11 @@ p{
 }
 
 
-.c2 {height: 150px; width:125px; color:#f0c220}
-.c3 {height: 150px; width:125px; color:#f0c220}
-.c4 {height: 150px; width:125px; color:#f0c220}
-.c5 {height: 150px; width:125px; color:#f0c220}
-.c6 {height: 150px; width:125px; color:#f0c220}
-.c7 {height: 150px; width:125px; color:#f0c220}
-.c8 {height: 150px; width:125px; color:#f0c220}
+.c2 {height: 150px; width:125px; color:#f0c220; }
+.c3 {height: 150px; width:125px; color:#f0c220; }
+.c4 {height: 150px; width:125px; color:#f0c220; }
+.c5 {height: 150px; width:125px; color:#f0c220; }
+.c6 {height: 150px; width:125px; color:#f0c220; }
+.c7 {height: 150px; width:125px; color:#f0c220; }
+.c8 {height: 150px; width:125px; color:#f0c220; }
 
