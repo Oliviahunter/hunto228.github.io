@@ -1,5 +1,5 @@
 body {
-	font-family: arial;
+	font-family: source code pro;
 	font-size: 20px;
 	line-height: 28px;
 	margin: 0;
@@ -32,6 +32,7 @@ div{
 
 img {
 	margin-bottom: 40px;
+
 }
 
 ul {
