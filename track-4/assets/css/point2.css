@@ -3,24 +3,25 @@
 body{
 	margin:0;
 	padding:0;
-	font-size:300;
+	font-size:300px;
 	font-family: source code pro;
-	color: black;
+	color: white;
+	background-color: black;
 
 }
 
-
+/*
 .wrapper { 
 	background: #aaa;
 	width: 960px;
 	margin: 0 auto 0 auto;
-}
+}*/
 
 
 .c {
 	font-size: 150px;
 	display: inline-block;
-	background: #f0c220;
+	background: black;
 	margin: 0px;
 }
 
@@ -32,18 +33,7 @@ p{
 }
 
 .square {
-	height: 800px;
-	width:400px;
-	/*background-color: #f0c220;*/
-	background-color: #000;
-	margin:215px;
-	/*position:fixed;
-	bottom: 5px;
-	right: 5px;
-*/
-}
-.square1 {
-	height: 800px;
+	height: 200px;
 	width:400px;
 	/*background-color: #f0c220;*/
 	background-color: #2345fc;
@@ -51,6 +41,21 @@ p{
 	/*position:fixed;
 	bottom: 5px;
 	right: 5px;
+*/
+}
+.square1 {
+	height: 200px;
+	width:1000px;
+	/*background-color: #f0c220;*/
+	background-color: white;
+	margin-bottom:215px;
+	position:fixed;
+	bottom: 5px;
+	right: 0px;
+}
+
+img {
+	width: 400px;
 }
 
 

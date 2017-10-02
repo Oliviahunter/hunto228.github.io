@@ -30,8 +30,9 @@ div{
 	margin-bottom:40px;
 }
 
-img {
+.img {
 	margin-bottom: 40px;
+}
 
 }
 
@@ -41,4 +42,5 @@ ul {
 
 p{
 	width:710px;
+	font-size: 300px;
 }

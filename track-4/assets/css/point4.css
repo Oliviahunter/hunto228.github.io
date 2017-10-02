@@ -6,6 +6,7 @@ body{
 	font-size:300;
 	font-family: source code pro;
 	color: black;
+	background-color: black;
 
 }
 
@@ -32,18 +33,7 @@ p{
 }
 
 .square {
-	height: 800px;
-	width:400px;
-	/*background-color: #f0c220;*/
-	background-color: #000;
-	margin:215px;
-	/*position:fixed;
-	bottom: 5px;
-	right: 5px;
-*/
-}
-.square1 {
-	height: 800px;
+	height: 200px;
 	width:400px;
 	/*background-color: #f0c220;*/
 	background-color: #2345fc;
@@ -51,6 +41,22 @@ p{
 	/*position:fixed;
 	bottom: 5px;
 	right: 5px;
+*/
+}
+.square1 {
+	height: 200px;
+	width:400px;
+	/*background-color: #f0c220;*/
+	background-color: #2345fc;
+	margin:215px;
+	bottom: 5px;
+	right: 5px;
+}
+
+.img {
+	size: 800px
+	position: fixed;
+
 }
 
 
