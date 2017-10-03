@@ -1,3 +1,87 @@
+* {box-sizing: border-box;}
+
+
 body {
 	background: #ff0;
+	font-size: 0;
+	font-family: source code pro;
 }
+
+.wrapper {
+	margin: 0 auto;
+}
+
+
+.c{
+	display: inline-block;
+	padding: 0 20px 0 20px;
+	margin: 0 0 50px 0;
+	background: #f1f1f1;
+	font-size: 20px;
+}
+
+.c1{width: 25%;}
+.c2{width: 50%;}
+.c3{width: 75%;}
+.c4{width: 100%;}
+
+
+
+.button-wrapper {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.button {
+	width: 175px;
+	height: 175px;
+	border-radius: 100%;
+	background: url(../img/Group.png) no-repeat;
+	font-size: 20px;
+	transition: all 500ms ease;
+
+}
+
+.button-text{
+	position: absolute;
+	top: 50%
+	left: 50%
+	transform: translate(-50%,-50%);
+	font-family: arial, sans-serif;
+	background: #fff;
+	width:90px;
+}
+
+.button:hover {
+	background-position: -175px 0;
+	transform: rotate(360deg);
+}
+
+.button-1, .button-2 {
+	background: #000;
+}
+
+
+
+.button:active .button-text{
+	transform: rotate(180deg);
+}
+
+
+
+/*
+.button: {color: #000;}
+.button: visited {color: #000;}
+.button: hover { color: #000; }
+.button: active {color: #000;}*/
+
+/*has to be written in this order or else it won't work!!!*/
+
+
+
+
+
+
+
