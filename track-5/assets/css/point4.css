@@ -46,11 +46,14 @@ p{
 .square1 {
 	height: 500px;
 	width: 500px;
+	border-radius: 100%;
 	/*background-color: #f0c220;*/
-	background-color: #ccc;
+	background-color: black;
 	margin:215px;
-	bottom: 5px;
+	/*bottom: 5px;*/
 	right: 5px;
+	position: fixed;
+	b
 }
 
 .img {
