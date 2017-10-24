@@ -6,10 +6,21 @@ body{
 	font-size:300;
 	font-family: source code pro;
 	color: black;
-	background-color: #a91313;
+	background-color: black;
 }
 
+.square {
+	height: 100px;
+	width:1500px;
+	/*background-color: #f0c220;*/
+	background-color: brown;
+	margin:0px;
+	margin-top: 0px;
+	position:fixed;
+	bottom: 250px;
+	right: 0px;
 
+}
 .wrapper { 
 	background: #aaa;
 	width: 960px;
@@ -32,18 +43,7 @@ p{
 	background-color: black;
 }
 
-.square {
-	height: 100px;
-	width:1500px;
-	/*background-color: #f0c220;*/
-	background-color: black;
-	margin:0px;
-	margin-top: 0px;
-	/*position:fixed;
-	bottom: 5px;
-	right: 5px;
-*/
-}
+
 
 
 
