@@ -5,31 +5,51 @@ body{
 	padding:0;
 	font-size:300;
 	font-family: source code pro;
-	color: black;
-	background-color: black;
+	color: white;
+	background-color: white;
+
 }
 
-.square {
-	height: 100px;
-	width:1500px;
+.img {
+	width:200px;
+}
+
+.square1 {
+	height: 200px;
+	width:1000px;
 	/*background-color: #f0c220;*/
-	background-color: brown;
-	margin:0px;
-	margin-top: 0px;
+	background-color: black;
+	margin-top:10px;
+	margin-bottom:10px;
 	position:fixed;
-	bottom: 250px;
+	bottom: 420px;
 	right: 0px;
 
+
 }
 
-a{
-	color:white
-}
+.square2 {
+	height: 200px;
+	width:1000px;
+	/*background-color: #f0c220;*/
+	background-color: black;
+	margin-top:10px;
+	margin-bottom:10px;
+	position:fixed;
+	bottom: 30px;
+	right: 0px;
+
+	}
+
 .wrapper { 
 	background: #aaa;
 	width: 960px;
 	margin: 0 auto 0 auto;
 }
+
+}
+
+
 
 
 .c {
@@ -43,11 +63,7 @@ a{
 .no-right-gutter {margin-right:0;}
 .whitespace-fix{font-size:0;}
 p{
-	color:#f0c220; font-size: 20px;
-	background-color: black;
-}
-
-
+	color:#ccc; font-size: 20px;
 
 
 
