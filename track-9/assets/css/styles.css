@@ -48,12 +48,12 @@ ul, li {
 
 }
 
-.content.orange {background: orange;}
-.content.blue {background: blue;}
-.content.green {background: green;}
-.content.yellow {background: yellow;}
-.content.red {background: red;}
-.content.pink {background: pink;}
+.content.orange {background: black;}
+.content.blue {background: white;}
+.content.green {background: black;}
+.content.yellow {background: white;}
+.content.red {background: black;}
+.content.pink {background: white;}
 
 
 .lightbox.beyonce{
