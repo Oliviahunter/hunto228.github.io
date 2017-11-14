@@ -11,6 +11,9 @@ body{
 
 html, body{height: 100%;}
 
+
+
+
 .wrapper{
 	width: 100%;
 	height: 100%;
@@ -53,10 +56,10 @@ ul, li {
 
 }
 
-.content.orange {background: black;}
-.content.blue {background: white;}
-.content.green {background: black;}
-.content.yellow {background: black;}
+.content.orange {background: red;}
+.content.blue {background: orange;}
+.content.green {background: blue;}
+.content.yellow {background: red;}
 .content.red {background: black;}
 .content.pink {background: white;}
 
