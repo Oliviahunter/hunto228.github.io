@@ -1,70 +1,85 @@
 /**{box-sizing:border-box;}*/
 
+*{box-sizing: border-box;
+  vertical-align: top;}
+
 body{
 	margin:0;
+	padding: 0;
+	font-size: 0; 
+}
+
+html, body{height: 100%;}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+.column{
+	width:50%;
+	display: inline-block;
+	height: 280%;
+	padding: 10px;
+	/*background-color: #fed;*/
+	background-color: black;
+
+}
+
+.content{
+	background: #f1f1f1;
+	font-size: 30px;
+}
+
+ul, li {
+	list-style: none;
+	margin:0;
 	padding:0;
-	font-size:300;
-	font-family: source code pro;
-	color: white;
-	background-color: white;
+}
+
+.nav-item{
+	border: 70px solid #fff;
+	padding: 10px 20px;
+	display: block;
+	font-size: 50px;
+	font-family: serif;
+	margin: 0 15px 15px 0;
+	cursor: pointer;
+}
+
+.nav-item:hover, .nav-item.active{
+	background:#fff;
+	color: #fff;
 
 }
 
-.img {
-	width:200px;
-}
-
-.square1 {
-	height: 200px;
-	width:1000px;
-	/*background-color: #f0c220;*/
-	background-color: black;
-	margin-top:10px;
-	margin-bottom:10px;
-	position:fixed;
-	bottom: 420px;
-	right: 0px;
+.content.orange {background: black;}
+.content.blue {background: white;}
+.content.green {background: black;}
+.content.yellow {background: black;}
+.content.red {background: black;}
+.content.pink {background: white;}
 
 
-}
-
-.square2 {
-	height: 200px;
-	width:1000px;
-	/*background-color: #f0c220;*/
-	background-color: black;
-	margin-top:10px;
-	margin-bottom:10px;
-	position:fixed;
-	bottom: 30px;
-	right: 0px;
-
+.lightbox.beyonce{
+	width:100%;
+	height:100%;
+	background:#000;
+	color:#fff;
+	position: fixed;
+	top:0;
+	left:0;
 	}
 
-.wrapper { 
-	background: #aaa;
-	width: 960px;
-	margin: 0 auto 0 auto;
+
+.close-button{
+	position: absolute;
+	top:-5px;
+	right:30px;
+	font-size: 100px;
+	font-family: Helvetica, Arial, sans-serif;
+	cursor: pointer;
 }
 
-}
 
-
-
-
-.c {
-	font-size: 150px;
-	display: inline-block;
-	background: #f0c220;
-	margin: 0px;
-}
-
-.no-left-gutter {margin-left:0;}
-.no-right-gutter {margin-right:0;}
-.whitespace-fix{font-size:0;}
-p{
-	color:#ccc; font-size: 20px;
-
-
-
-
+.hide{display: none;}
