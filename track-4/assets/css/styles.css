@@ -11,7 +11,7 @@ body{
 
 
 .wrapper { 
-	background: #aaa;
+	background: #ccc;
 	width: 960px;
 	margin: 0 auto 0 auto;
 }
@@ -28,7 +28,7 @@ body{
 .no-right-gutter {margin-right:0;}
 .whitespace-fix{font-size:0;}
 p{
-	color:#f0c220; font-size: 20px;
+	color:#ccc; font-size: 20px;
 }
 
 .square {
@@ -46,7 +46,7 @@ p{
 	height: 800px;
 	width:400px;
 	/*background-color: #f0c220;*/
-	background-color: #2345fc;
+	background-color: #fff;
 	margin:215px;
 	/*position:fixed;
 	bottom: 5px;
