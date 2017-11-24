@@ -1,32 +1,22 @@
-/**{box-sizing:border-box;}*/
+*{box-sizing:border-box;}
 
 body{
 	margin:0;
 	padding:0;
 	font-size:300;
 	font-family: source code pro;
-	color: black;
-	background-color: black;
-}
-
-.square {
-	height: 100px;
-	width:1500px;
-	/*background-color: #f0c220;*/
-	background-color: brown;
-	margin:0px;
-	margin-top: 0px;
-	position:fixed;
-	bottom: 250px;
-	right: 0px;
+	color: yellow;
+	background-color: #ec64c3;
 
 }
 
 a{
-	color:white
+	width:300px;
+	height:200px;
 }
+
 .wrapper { 
-	background: #aaa;
+	background: pink;
 	width: 960px;
 	margin: 0 auto 0 auto;
 }
@@ -35,7 +25,7 @@ a{
 .c {
 	font-size: 150px;
 	display: inline-block;
-	background: #f0c220;
+	background: pink;
 	margin: 0px;
 }
 
@@ -43,12 +33,22 @@ a{
 .no-right-gutter {margin-right:0;}
 .whitespace-fix{font-size:0;}
 p{
-	color:#f0c220; font-size: 20px;
-	background-color: black;
+	color: orange; font-size: 20px;
 }
 
-
-
+.square {
+	height: 200px;
+	width: 700px;
+	/*background-color: #f0c220;*/
+	background-color: #fc85c9;
+	margin:150px;
+	margin-bottom: 5px;
+	margin-top: 40px;
+	/*position:fixed;*/
+/*	bottom: 5px;
+	right: 5px;
+*/
+}
 
 
 
