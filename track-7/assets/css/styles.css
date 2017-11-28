@@ -5,15 +5,11 @@ body{
 	padding:0;
 	font-size:300;
 	font-family: source code pro;
-	color: yellow;
+	color: pink;
 	background-color: #fc85c9;
 
 }
 
-
-.img {
-	width: 800px;
-}
 a{
 	width:300px;
 	height:200px;
@@ -25,6 +21,49 @@ a{
 	margin: 0 auto 0 auto;
 }
 
+.pink-texture {
+top: 50%;
+left: 50%;
+max-width: 480px;
+width: 100%;
+height: auto;
+transform: translate(-70%, -110%);
+display: block; 
+margin-left: 700px; 
+}
+
+.pink-texture2 {
+top: 50%;
+left: 50%;
+max-width: 480px;
+width: 100%;
+height: auto;
+transform: translate(-40%, -70%);
+display: block; 
+margin-left: 600px; 
+}
+
+.pink-texture4 {
+top: 50%;
+left: 50%;
+max-width: 480px;
+width: 100%;
+height: auto;
+transform: translate(-100%, 60%);
+display: block; 
+margin-left: 600px; 
+}
+
+.pink-texture3 {
+top: 50%;
+left: 50%;
+max-width: 480px;
+width: 100%;
+height: auto;
+transform: translate(-90%, -140%);
+display: block; 
+margin-left: 600px; 
+}
 
 .c {
 	font-size: 150px;
@@ -37,17 +76,17 @@ a{
 .no-right-gutter {margin-right:0;}
 .whitespace-fix{font-size:0;}
 p{
-	color: orange; font-size: 20px;
+	color: pink; font-size: 20px;
 }
 
-.square {
+/*.square {
 	height: 200px;
 	width: 700px;
 	/*background-color: #f0c220;*/
-	background-color: #fc85c9;
+/*	background-color: #fc85c9;
 	margin:150px;
 	margin-bottom: 5px;
-	margin-top: 40px;
+	margin-top: 40px;*/*/
 	/*position:fixed;*/
 /*	bottom: 5px;
 	right: 5px;
