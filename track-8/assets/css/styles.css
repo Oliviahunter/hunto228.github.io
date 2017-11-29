@@ -5,20 +5,42 @@ body{
 	margin:0;
 	padding: 0;
 	font-size: 0; 
+	background-color: #091847;
 }
 
 html, body{height: 100%;}
 
-.wrapper{
-	width: 100%;
-	height: 100%;
+.bluetexture {
+top: 50%;
+left: 50%;
+max-width: 400px;
+width: 100%;
+height: auto;
+transform: translate(-95%, 20%);
+display: block; 
+margin-left: 700px; 
 }
 
-.column{
-	width:50%;
-	display: inline-block;
-	height: 100%;
-	padding: 30px;
+.bluetexture1 {
+top: 50%;
+left: 50%;
+max-width: 400px;
+width: 100%;
+height: auto;
+transform: translate(-150%, -10%);
+display: block; 
+margin-left: 700px; 
+}
+
+.bluetexture2 {
+top: 50%;
+left: 50%;
+max-width: 400px;
+width: 100%;
+height: auto;
+transform: translate(-100%, -90%);
+display: block; 
+margin-left: 700px; 
 }
 
 .content{
@@ -32,52 +54,7 @@ ul, li {
 	padding:0;
 }
 
-.nav-item{
-	border: 1px solid #000;
-	padding: 10px 20px;
-	display: inline-block;
-	font-size: 50px;
-	margin: 0 15px 15px 0;
-	cursor: pointer;
-}
 
-.nav-item:hover, .nav-item.active{
-	background:#000;
-	color: #fff;
-
-}
-
-.content.green {background: black;}
-.content.blue {background: white;}
-.content.red {background: grey;}
-
-
-.lightbox.beyonce{
-	width:100%;
-	height:100%;
-	background:#000;
-	color:#fff;
-	position: fixed;
-	top:0;
-	left:0;
-	}
-
-.slay{
-	font-size: 200px;
-	position:absolute;
-	top:50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
-.close-button{
-	position: absolute;
-	top:-5px;
-	right:30px;
-	font-size: 100px;
-	font-family: Helvetica, Arial, sans-serif;
-	cursor: pointer;
-}
 
 
 .hide{display: none;}
