@@ -5,6 +5,7 @@ body{
 	margin:0;
 	padding: 0;
 	font-size: 0; 
+	background-color: black;
 }
 
 html, body{height: 100%;}
@@ -21,10 +22,7 @@ html, body{height: 100%;}
 	padding: 10px;
 }
 
-.content{
-	background: #f1f1f1;
-	font-size: 30px;
-}
+
 
 ul, li {
 	list-style: none;
@@ -48,23 +46,64 @@ ul, li {
 
 }
 
-.content.orange {background: black;}
-.content.blue {background: white;}
-.content.green {background: black;}
-.content.yellow {background: white;}
-.content.red {background: black;}
-.content.pink {background: white;}
+
+.blacktexture {
+top: 50%;
+left: 50%;
+max-width: 480px;
+width: 100%;
+height: auto;
+transform: translate(-100%, 10%);
+display: block; 
+margin-left: 700px; 
+}
+
+.blacktexture1 {
+top: 50%;
+left: 50%;
+max-width: 480px;
+width: 100%;
+height: auto;
+transform: translate(-150%, -10%);
+display: block; 
+margin-left: 700px; 
+}
+
+.blacktexture2 {
+top: 50%;
+left: 50%;
+max-width: 550px;
+width: 100%;
+height: auto;
+transform: translate(-100%, -40%);
+display: block; 
+margin-left: 700px; 
+}
+
+.blacktexture3 {
+top: 50%;
+left: 50%;
+max-width: 400px;
+width: 100%;
+height: auto;
+transform: translate(-160%, -50%);
+display: block; 
+margin-left: 700px; 
+}
 
 
-.lightbox.beyonce{
-	width:100%;
-	height:100%;
-	background:#000;
-	color:#fff;
-	position: fixed;
-	top:0;
-	left:0;
-	}
+.blacktexture4 {
+top: 50%;
+left: 50%;
+max-width: 450px;
+width: 100%;
+height: auto;
+transform: translate(-70%, -390%);
+display: block; 
+margin-left: 700px; 
+}
+
+
 
 
 .close-button{
