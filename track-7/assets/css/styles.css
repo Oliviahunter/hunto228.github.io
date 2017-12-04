@@ -6,7 +6,7 @@ body{
 	font-size:300;
 	font-family: source code pro;
 	color: pink;
-	background-color: #fc85c9;
+	background-color: #032b0c;
 
 }
 
@@ -21,7 +21,7 @@ a{
 	margin: 0 auto 0 auto;
 }
 
-.pink-texture {
+.greentexture {
 top: 50%;
 left: 50%;
 max-width: 480px;
@@ -32,38 +32,64 @@ display: block;
 margin-left: 700px; 
 }
 
-.pink-texture2 {
+.greentexture2 {
 top: 50%;
 left: 50%;
 max-width: 480px;
 width: 100%;
 height: auto;
-transform: translate(-40%, -70%);
+transform: translate(-70%, -50%);
 display: block; 
-margin-left: 600px; 
+margin-left: 700px; 
 }
 
-.pink-texture4 {
+.greenmarble {
 top: 50%;
 left: 50%;
 max-width: 480px;
 width: 100%;
 height: auto;
-transform: translate(-100%, 60%);
+transform: translate(-30%, -100%);
 display: block; 
-margin-left: 600px; 
+margin-left: 700px; 
 }
 
-.pink-texture3 {
+.greenfabric {
 top: 50%;
 left: 50%;
 max-width: 480px;
 width: 100%;
 height: auto;
-transform: translate(-90%, -140%);
+transform: translate(-110%, -150%);
 display: block; 
-margin-left: 600px; 
+margin-left: 700px; 
 }
+
+.greensatin {
+top: 50%;
+left: 50%;
+max-width: 480px;
+width: 100%;
+height: auto;
+transform: translate(-50%, -200%);
+display: block; 
+margin-left: 700px; 
+}
+
+.greenleaves {
+top: 50%;
+left: 50%;
+max-width: 480px;
+width: 100%;
+height: auto;
+transform: translate(-130%, -450%);
+display: block; 
+margin-left: 700px; 
+}
+
+
+
+
 
 .c {
 	font-size: 150px;

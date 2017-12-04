@@ -1,0 +1,13 @@
+*{box-sizing: border-box;
+  vertical-align: top;}
+
+body{
+	margin:30px;
+	padding: 0;
+	font-size: 30px;
+	color: black
+	font-family: source code pro;
+}
+
+html, body{height: 100%;}
+
