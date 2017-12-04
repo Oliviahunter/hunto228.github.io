@@ -1,0 +1,71 @@
+*{box-sizing: border-box;
+  vertical-align: top;}
+
+body{
+	margin:0;
+	padding: 0;
+	font-size: 0; 
+	background-color: #091347;
+}
+
+html, body{height: 100%;}
+
+.darkbluetexture {
+top: 50%;
+left: 50%;
+max-width: 400px;
+width: 100%;
+height: auto;
+transform: translate(-65%, 10%);
+display: block; 
+margin-left: 700px; 
+}
+
+.bluefeathers {
+top: 50%;
+left: 50%;
+max-width: 400px;
+width: 100%;
+height: auto;
+transform: translate(-150%, -10%);
+display: block; 
+margin-left: 700px; 
+}
+
+.bluesilk {
+top: 50%;
+left: 50%;
+max-width: 400px;
+width: 100%;
+height: auto;
+transform: translate(-90%, -140%);
+display: block; 
+margin-left: 700px; 
+}
+
+.purplerose {
+top: 50%;
+left: 50%;
+max-width: 400px;
+width: 100%;
+height: auto;
+transform: translate(-30%, -220%);
+display: block; 
+margin-left: 700px; 
+}
+
+.content{
+	background: #f1f1f1;
+	font-size: 30px;
+}
+
+ul, li {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+
+
+
+.hide{display: none;}
