@@ -5,23 +5,23 @@ body{
 	margin:0;
 	padding: 0;
 	font-size: 0; 
-	background-color: #091847;
+	background-color: #300349;
 }
 
 html, body{height: 100%;}
 
-.bluetexture {
+.purplevelvet {
 top: 50%;
 left: 50%;
 max-width: 400px;
 width: 100%;
 height: auto;
-transform: translate(-95%, 20%);
+transform: translate(-65%, -40%);
 display: block; 
 margin-left: 700px; 
 }
 
-.bluetexture1 {
+.purpletexture {
 top: 50%;
 left: 50%;
 max-width: 400px;
@@ -32,13 +32,24 @@ display: block;
 margin-left: 700px; 
 }
 
-.bluetexture2 {
+.purplefeather {
 top: 50%;
 left: 50%;
 max-width: 400px;
 width: 100%;
 height: auto;
-transform: translate(-100%, -90%);
+transform: translate(-140%, -120%);
+display: block; 
+margin-left: 700px; 
+}
+
+.purplerose {
+top: 50%;
+left: 50%;
+max-width: 400px;
+width: 100%;
+height: auto;
+transform: translate(-30%, -220%);
 display: block; 
 margin-left: 700px; 
 }
