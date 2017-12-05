@@ -17,17 +17,19 @@ a{
 }
 
 
-.container hover {    
-box-sizing: border-box
-}
+.container {    
+top: 50%;
+left: 50%;
+max-width: 480px;
+width: 100%;
+height: auto;
+transform: translate(-5%, -500%);
+display: block; 
+margin-left: 700px; }
 
 
-.wrapper { 
-	background: yellow;
-	width: 960px;
-	margin: 0 auto 0 auto;
-}
 
+/**/
 
 .c {
 	font-size: 150px;
