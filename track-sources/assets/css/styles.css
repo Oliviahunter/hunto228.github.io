@@ -2,11 +2,12 @@
   vertical-align: top;}
 
 body{
+	font-family: avenir;
 	margin:30px;
 	padding: 0;
-	font-size: 30px;
+	font-size: 15px;
 	color: black
-	font-family: source code pro;
+	
 }
 
 html, body{height: 100%;}

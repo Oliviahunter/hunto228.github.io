@@ -54,10 +54,35 @@ left: 50%;
 max-width: 400px;
 width: 100%;
 height: auto;
-transform: translate(-95%, -50%);
+transform: translate(-95%, -180%);
 display: block; 
 margin-left: 700px; 
 }
+
+.whitetexture4 {
+top: 50%;
+left: 50%;
+max-width: 400px;
+width: 100%;
+height: auto;
+transform: translate(-95%, -600%);
+display: block; 
+margin-left: 700px; 
+}
+
+.whitetexture5 {
+top: 50%;
+left: 50%;
+max-width: 400px;
+width: 100%;
+height: auto;
+transform: translate(-10%, -310%);
+display: block; 
+margin-left: 700px; 
+}
+
+
+
 
 
 
