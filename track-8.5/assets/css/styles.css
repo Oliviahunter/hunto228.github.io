@@ -38,20 +38,30 @@ left: 50%;
 max-width: 400px;
 width: 100%;
 height: auto;
-transform: translate(-90%, -140%);
+transform: translate(-60%, -140%);
 display: block; 
 margin-left: 700px; 
 }
 
-.purplerose {
-top: 50%;
-left: 50%;
-max-width: 400px;
-width: 100%;
-height: auto;
-transform: translate(-30%, -220%);
-display: block; 
-margin-left: 700px; 
+.blueberries {
+	top: 600px;
+	left: 50px;
+	max-height: 300px;
+	position: absolute;
+}
+
+.darkshadow {
+	top: 700px;
+	left: 500px;
+	max-height: 300px;
+	position: absolute;
+}
+
+.lightblue{
+	top: 30px;
+	left: 50px;
+	max-height: 300px;
+	position: absolute;
 }
 
 .next-track {
