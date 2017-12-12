@@ -1,14 +1,31 @@
 *{box-sizing:border-box;}
 
+html {
+  min-width: 100%;
+  min-height: 100%;
+  height: 1000px;
+}
+
+
+
 body{
 	margin:0;
-	padding:0;
+	padding-bottom:10px;
 	font-size:300;
 	font-family: source code pro;
 	color: yellow;
 	background-color: maroon;
 
+
 }
+
+
+.next-track {
+	top: 50px;
+	left:600px;
+	position: fixed;
+}
+
 
 a{
 	width:300px;
@@ -22,8 +39,7 @@ a{
 }
 
 .red-texture {
-top: 50%;
-left: 50%;
+
 max-width: 480px;
 width: 100%;
 height: auto;
@@ -55,12 +71,75 @@ margin-left: 500px;
 margin-right: 100px;
 }
 
-.c {
+
+.redfeathers {
+
+max-width: 480px;
+width: 100%;
+height: auto;
+transform: translate( 20%, -450%);
+display: block; 
+margin-left: 500px; 
+margin-right: 100px;
+}
+
+
+.redwall {
+
+max-width: 480px;
+width: 100%;
+height: auto;
+transform: translate(-130%, -370%);
+display: block; 
+margin-left: 500px; 
+margin-right: 100px;
+}
+
+
+.redfabric {
+
+max-width: 480px;
+width: 100%;
+height: auto;
+transform: translate(20%, -240%);
+display: block; 
+margin-left: 500px; 
+margin-right: 100px;
+}
+
+
+.redtexture-1 {
+
+max-width: 400px;
+height: auto;
+transform: translate(60%, -440%);
+display: block; 
+margin-left: 500px; 
+margin-right: 100px;
+}
+
+
+.redtexture-2 {
+
+max-width: 480px;
+width: 100%;
+height: auto;
+transform: translate(-95%, -530%);
+display: block; 
+margin-left: 500px; 
+margin-right: 100px;
+}
+
+
+
+
+
+/*.c {
 	font-size: 150px;
 	display: inline-block;
 	background: red;
 	margin: 0px;
-}
+}*/
 
 .no-left-gutter {margin-left:0;}
 .no-right-gutter {margin-right:0;}

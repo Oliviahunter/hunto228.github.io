@@ -103,7 +103,10 @@ display: block;
 margin-left: 700px; 
 }
 
-
+.next-track {
+	top: 50px;
+	left:50px;
+	position: fixed;
 
 
 .close-button{

@@ -54,16 +54,33 @@ display: block;
 margin-left: 700px; 
 }
 
-.content{
-	background: #f1f1f1;
-	font-size: 30px;
+.purplestone {
+	top: 50px;
+	left: 50px;
+	max-height: 350px;
+	position: absolute;
 }
 
-ul, li {
-	list-style: none;
-	margin:0;
-	padding:0;
+.purpleleaves {
+	top: 700px;
+	left: 80px;
+	max-width: 500px;
+	position: absolute;
 }
+
+.fruits {
+	top: 800px;
+	left: 500px;
+	max-height: 400px;
+	position: absolute;
+}
+
+.next-track {
+	top: 50px;
+	left:700px;
+	position: fixed;
+
+
 
 
 

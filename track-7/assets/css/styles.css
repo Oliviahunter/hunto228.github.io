@@ -87,6 +87,32 @@ display: block;
 margin-left: 700px; 
 }
 
+.emeraldleaves {
+top: 50px;
+left: 500px;
+max-height: 400px;
+position: absolute;
+}
+
+.greenpaint {
+top: 1300px;
+left: 900px;
+max-height: 500px;
+position: absolute;
+}
+
+.greenfeathers {
+top: 400px;
+left: 50px;
+max-height: 500px;
+position: absolute;
+}
+
+.next-track {
+	top: 50px;
+	left:50px;
+	position: fixed;
+}
 
 
 

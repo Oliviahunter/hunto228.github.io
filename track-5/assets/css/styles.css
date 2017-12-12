@@ -47,13 +47,15 @@ p{
 
 .yellowplastic {
 	position: absolute;
-	top: 500px;
+	top: 100px;
 	left: 500px;
 }
 
 
-.yellow-texture { 
-margin: 100px 100px -150px 300px;
+.square {
+background-color: gold;
+max-width: 0px;
+margin: 100px 100px -100px 300px;
 width: 700px; 
 bottom: 50%;
 }
@@ -61,10 +63,10 @@ bottom: 50%;
 .yellow-texture2 { 
 top: 50%;
 left: 50%;
-max-width: 480px;
+max-width: 600px;
 width: 100%;
 height: auto;
-transform: translate(-50%, -50%);
+transform: translate(-40%, -10%);
 display: block; 
 margin-left: 700px; }
 
@@ -74,44 +76,54 @@ left: 50%;
 max-width: 600px;
 width: 200%;
 height: auto;
-transform: translate(-100%, -150%);
+transform: translate(-120%, -110%);
 display: block; 
 margin-left: 700px; }
 
 .goldmetal { 
-top: 50%;
-left: 50%;
-max-width: 480px;
-width: 100%;
-height: auto;
-transform: translate(-10%, -300%);
-display: block; 
-margin-left: 700px; }
+top: 500px;
+left: 500px;
+position: absolute;}
 
 
 .goldfoil { 
 position: absolute;
-top: 77px;
+top: 330px;
 left: 70px;
 }
 
 .yellowplastic { 
 position: absolute;
-top: 1200px;
-left: 650px;
-max-height: 300px;
+top: 1600px;
+left: 600px;
+max-height: 400px;
  }
 
 .gold { 
 top: 50%;
 left: 50%;
-max-width: 480px;
+max-width: 650px;
 width: 100%;
 height: auto;
-transform: translate(20%, -340%);
+transform: translate(-100%, -40%);
 display: block; 
 margin-left: 700px; }
 
+.yellowlego { 
+top: 50%;
+left: 50%;
+max-width: 600px;
+width: 100%;
+height: auto;
+transform: translate(-70%, -100%);
+display: block; 
+margin-left: 700px; }
+
+.next {
+	top: 50px;
+	left:50px;
+	position: fixed;
+}
 
 }
 
