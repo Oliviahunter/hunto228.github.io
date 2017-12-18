@@ -21,9 +21,9 @@ body{
 
 
 .next-track {
-	top: 50px;
-	left:600px;
-	position: fixed;
+	top: 3000px;
+	left:900px;
+	position: absolute;
 }
 
 
@@ -130,6 +130,30 @@ margin-left: 500px;
 margin-right: 100px;
 }
 
+.redjewels {
+
+top: 1400px;
+left: 120px;
+position: absolute;
+}
+.redwood {
+	top: 1900px;
+	left: 300px;
+	position: absolute;
+}
+
+.redpaper {
+	top: 2500px;
+	left: 400px;
+	position: absolute;
+}
+
+.redquid {
+	top: 2300px;
+	left: 200px;
+	max-height: 900px;
+	position: absolute;
+}
 
 
 

@@ -65,9 +65,9 @@ margin-left: 700px;
 }
 
 .next-track {
-	top: 50px;
+	top: 1000px;
 	left:50px;
-	position: fixed;
+	position: absolute;
 	
 .content{
 	background: #f1f1f1;

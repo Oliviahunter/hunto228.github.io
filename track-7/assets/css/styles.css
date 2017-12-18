@@ -109,9 +109,9 @@ position: absolute;
 }
 
 .next-track {
-	top: 50px;
+	top: 1600px;
 	left:50px;
-	position: fixed;
+	position: absolute;
 }
 
 

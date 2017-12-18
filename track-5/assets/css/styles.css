@@ -121,9 +121,9 @@ display: block;
 margin-left: 700px; }
 
 .next {
-	top: 50px;
+	top: 2300px;
 	left:50px;
-	position: fixed;
+	position: absolute;
 }
 
 }
